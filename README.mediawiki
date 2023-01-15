@@ -279,6 +279,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Gavin Andresen
 | Informational
 | Final
+|-
+| [[bip-0052.mediawiki|52]]
+| Consensus (hard fork)
+| Durable, Low Energy Bitcoin PoW
+| Michael Dubrovsky, Bogdan Penkovsky
+| Standard
+| Draft
 <!-- 50 series reserved for a group of post-mortems -->
 |-
 | [[bip-0060.mediawiki|60]]
@@ -818,7 +825,7 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Peer-to-Peer Communication Encryption
 | Jonas Schnelli
 | Standard
-| Withdrawn
+| Replaced
 |- style="background-color: #cfffcf"
 | [[bip-0152.mediawiki|152]]
 | Peer Services
@@ -914,7 +921,7 @@ Those proposing changes should consider that ultimately consent may rest with th
 | [[bip-0179.mediawiki|179]]
 |
 | Name for payment recipient identifiers
-| Emil Engler, MarcoFalke, Luke Dashjr
+| Emil Engler, Luke Dashjr
 | Informational
 | Draft
 |- style="background-color: #ffcfcf"
@@ -973,6 +980,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Karl-Johan Alm
 | Standard
 | Draft
+|-
+| [[bip-0324.mediawiki|324]]
+| Peer Services
+| Version 2 P2P Encrypted Transport Protocol
+| Dhruv Mehta, Tim Ruffing, Jonas Schnelli, Pieter Wuille
+| Standard
+| Draft
 |- style="background-color: #ffffcf"
 | [[bip-0325.mediawiki|325]]
 | Applications
@@ -980,6 +994,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Karl-Johan Alm, Anthony Towns
 | Standard
 | Proposed
+|-
+| [[bip-0326.mediawiki|326]]
+| Applications
+| Anti-fee-sniping protection in taproot transactions
+| Chris Belcher
+| Informational
+| Draft
 |-
 | [[bip-0330.mediawiki|330]]
 | Peer Services
@@ -1037,6 +1058,13 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Standard
 | Draft
 |-
+| [[bip-0351.mediawiki|351]]
+| Applications
+| Private Payments
+| Alfred Hodler, Clark Moody
+| Informational
+| Draft
+|-
 | [[bip-0370.mediawiki|370]]
 | Applications
 | PSBT Version 2
@@ -1049,6 +1077,62 @@ Those proposing changes should consider that ultimately consent may rest with th
 | Taproot Fields for PSBT
 | Andrew Chow
 | Standard
+| Draft
+|-
+| [[bip-0372.mediawiki|372]]
+| Applications
+| Pay-to-contract tweak fields for PSBT
+| Maxim Orlovsky
+| Standard
+| Draft
+|-
+| [[bip-0380.mediawiki|380]]
+| Applications
+| Output Script Descriptors General Operation
+| Pieter Wuille, Andrew Chow
+| Informational
+| Draft
+|-
+| [[bip-0381.mediawiki|381]]
+| Applications
+| Non-Segwit Output Script Descriptors
+| Pieter Wuille, Andrew Chow
+| Informational
+| Draft
+|-
+| [[bip-0382.mediawiki|382]]
+| Applications
+| Segwit Output Script Descriptors
+| Pieter Wuille, Andrew Chow
+| Informational
+| Draft
+|-
+| [[bip-0383.mediawiki|383]]
+| Applications
+| Multisig Output Script Descriptors
+| Pieter Wuille, Andrew Chow
+| Informational
+| Draft
+|-
+| [[bip-0384.mediawiki|384]]
+| Applications
+| combo() Output Script Descriptors
+| Pieter Wuille, Andrew Chow
+| Informational
+| Draft
+|-
+| [[bip-0385.mediawiki|385]]
+| Applications
+| raw() and addr() Output Script Descriptors
+| Pieter Wuille, Andrew Chow
+| Informational
+| Draft
+|-
+| [[bip-0386.mediawiki|386]]
+| Applications
+| tr() Output Script Descriptors
+| Pieter Wuille, Andrew Chow
+| Informational
 | Draft
 |}
 
